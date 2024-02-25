@@ -18,7 +18,14 @@ body{
     -webkit-align-items: center;
     align-items: center;
 }
-
+::-webkit-scrollbar{
+  background-color: var(--bg-secondary);
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #111434;
+  border-radius: 2px;
+}
 /* Animations */
 nav{
   animation: fade-in 0.3s ease;
